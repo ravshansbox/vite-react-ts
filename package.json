@@ -1,0 +1,20 @@
+{
+  "name": "vite-react-ts",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.12",
+    "@types/react-dom": "~19.1.9",
+    "@vitejs/plugin-react": "~5.0.2",
+    "prettier": "~3.6.2",
+    "react": "~19.1.1",
+    "react-dom": "~19.1.1",
+    "typescript": "~5.9.2",
+    "vite": "~7.1.4"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
