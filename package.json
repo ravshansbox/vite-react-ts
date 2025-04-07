@@ -1,0 +1,15 @@
+{
+  "name": "vite-react-ts",
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.5"
+  }
+}
