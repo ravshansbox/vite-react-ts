@@ -6,6 +6,8 @@
   "devDependencies": {
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@zag-js/combobox": "^1.21.0",
+    "@zag-js/react": "^1.21.0",
     "prettier": "^3.6.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

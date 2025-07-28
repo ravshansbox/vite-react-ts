@@ -1,5 +1,13 @@
-import { ComponentType } from 'react'
+import { ComponentType, useState } from 'react'
+import { Combobox } from './Combobox'
+
+const options = [
+  { value: 'ZA', label: 'Zambia' },
+  { value: 'BN', label: 'Benin' },
+]
 
 export const App: ComponentType = () => {
-  return <h1>Hello World</h1>
+  const [value, setValue] = useState(['BN'])
+
+  return <Combobox options={options} value={value} onChange={setValue} />
 }
